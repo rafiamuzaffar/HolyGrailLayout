@@ -1,0 +1,39 @@
+body{
+    font-size: 24px;
+    color: black;
+    height: 100vh;
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    ;
+}
+.flex-header{
+    background-color: #5ed106;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.flex-main{
+    display: flex;
+    flex: 1;
+    text-align: left;
+}
+.flex-nav{
+    background-color: #f5f765;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+.flex-article{
+    background-color: #fcfcd9;
+    padding-top: 3rem;
+    flex: 3 3;
+}
+.flex-aside{
+    background-color: #f5f765;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+.flex-footer{
+    background-color:#5ed106;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
